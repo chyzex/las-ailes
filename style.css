@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.navabar{
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.left{
+    display: flex;
+    gap: 40px;
+}
+
+
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.adress{
+    background: #FC004A;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.cont{
+    width: 100%;
+    margin-top: 60px ;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 235px;
+height: 331px;
+border-radius: 20px 20px 20px 20px ;
+box-shadow: 0 0 10px 2px rgb(169, 169, 169);
+padding: 10px 10px;
+margin: 10px 10px;
+margin-top: 70px;
+}
+
+
+
+.card-imgg{ 
+    width: 100%;
+    margin-left: -10px
+}
+
+.card-body{
+    position: relative;
+}
+
+.plus{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+
+h2{
+ margin-top: 10px;   
+}
+
+
+
+ p{
+    color: #FC004A;
+}
+
+
+
+.sets{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.h-dir-bu-h{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 120px;
+margin-left: 106px;
+display: flex;
+align-items: center;
+}
+
+
+
+.subist{
+    display: flex;,
+}
+
+
+.style-css{
+    display: flex;
+     margin-top: 120px;
+     height: 30px ;
+     margin-left: 500px;
+}
+
+.nine{
+    display: none;
+}
+
+@media screen and (max-width:1266px) and (min-width:800px) {
+    .logo{
+        display: none;
+    }
+
+    .cards .wrapper{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:0px) {
+    .logo{
+        display: none;
+    }
+
+    .cards .wrapper{
+        justify-content: space-around;
+    }
+
+    .nine{
+     display: block;
+    }
+
+    ul{
+        display: none;
+    }
+    
+    .cont{
+        width: 700px;
+        margin-left: 80px;
+    }
+
+    .cards{
+        margin-left: 70px;
+        width: 600px;
+        height: 400px;
+    }
+
+    .cards .card .card-body .card-img{
+        width: 700px;
+        height: 700px;
+    }
+
+    .sets{
+        margin-top: 100px;
+        margin-left: 250px;
+    }
+ 
+    .navabar{
+        width: 1777px;w
+    }
+
+    .logo{
+        display: none;
+    }
+} 
